@@ -14,12 +14,12 @@ import './App.css';
 function App() {
 
   const [people, setPeople] = useState<IState["people"]>([
-  // {
-  //   name: "Harry potter",
-  //   url: "",
-  //   age: 40,
-  //   note: "Magician"
-  // },
+  {
+    name: "Harry potter",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ncTHSxqGNrRUvlB2WlSvxrwZYxSrNsOV0A&usqp=CAU",
+    age: 40,
+    note: "Magician"
+  },
   // {
   //   name: "Ron Weasley",
   //   url: "",
