@@ -1,13 +1,5 @@
 import React from "react";
-
-  interface IProps {
-    people: {
-      name: string;
-      age: number;
-      url: string;
-      note?: string;
-    }[]
-  }
+import { IState as IProps } from "../App"
 
 // FC- functional component
 // <IProps>- props of type IProps
